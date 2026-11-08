@@ -129,9 +129,9 @@ a:focus-visible,button:focus-visible,select:focus-visible{outline:3px solid var(
  .rad{max-width:260px}.gauge{width:110px;height:110px}.pg{width:80px;height:80px;min-width:80px;font-size:2.4rem}.rg{grid-template-columns:1fr 1.25fr}.bm i,.gv,.rp{animation:none!important}.gv{stroke-dashoffset:var(--o)!important}.rp{opacity:1;transform:none}
 }
 
-/* hero title ar subtitle black fix */
-.hero h1{color:#000!important;text-shadow:none!important}
-.hero p{color:#000!important;opacity:1!important}
+/* hero title ar subtitle: theme onujayi color (dark theme-e white, light theme-e black) */
+.hero h1{color:var(--tx)!important;text-shadow:none!important}
+.hero p{color:var(--tx)!important;opacity:1!important}
 
 /* nav: 2 line layout (row 1: brand + clock/lang/theme, row 2: menu links) */
 nav{flex-wrap:wrap;overflow:visible;row-gap:6px;column-gap:18px;padding-bottom:6px}

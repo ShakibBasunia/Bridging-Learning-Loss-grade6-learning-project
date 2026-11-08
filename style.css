@@ -144,3 +144,13 @@ nav a:first-of-type{margin-left:0}
 nav a.on{border-bottom-width:2px}
 nav select{max-width:120px}
 @media(max-width:700px){nav{column-gap:12px}nav a{font-size:.9rem}}
+
+/* stat flip cards: content card-er bhitore thakar fix */
+.flip{height:340px}
+.ff,.fb2{box-sizing:border-box;overflow:hidden}
+.ff{justify-content:flex-start!important;gap:8px;padding:18px 14px 12px!important}
+.ff .dnw{width:120px;height:120px;margin:0 auto;flex:none}
+.ff .dnw .big{font-size:1.7rem!important;line-height:1}
+.ff>span{flex:1;display:flex;align-items:center;justify-content:center;font-size:1rem;line-height:1.55}
+.ff .hint{flex:none;margin:0!important;font-size:.85rem}
+.fb2{justify-content:center;text-align:center;padding:16px 14px!important;overflow-y:auto}
